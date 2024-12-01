@@ -132,40 +132,7 @@ footer {
 .skip-link:focus {
     top: 10px; /* Makes it visible when focused */
 }
-/*
-#rubric{
-    color:white;
-    line-height:40px;
-    text-align: center;
-    margin: 20px auto; /* Center the rubric 
-}
 
-#rubric h3{
-    font-size: 3em;
-}
-
-
-#rubric .gradingdescription{
-    font-size:2.25em ;
-    word-wrap: normal;
-    margin-bottom: 10px;
-    width: 80%;
-    max-width: 1000px;
-    
-    
-}
-
-#rubric .gradingjustification {
-    font-size:1.8em ;
-    color:#5a93f7;
-    margin-bottom: 100px;
-}
-
-#rubric h3 + .gradingdescription,
-#rubric .gradingdescription + .gradingjustification{
-    border: 1px solid #ddd;
-}
-*/
 
 #rubric {
     color: white;
@@ -173,15 +140,15 @@ footer {
     text-align: center;
     margin: 20px auto; /* Center the rubric */
     padding: 10px;
-    background-color: #333; /* Dark background for the rubric */
+    background-color: #333; 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add a shadow for depth */
-    width: 80%; /* Set the width to 80% of the container's width */
-    max-width: 1200px; /* Maximum width to prevent stretching */
+    width: 80%; 
+    max-width: 1200px; 
 }
 
 #rubric h3 {
-    font-size: 2.5em; /* Adjust the font size for headings */
+    font-size: 2.5em; 
     margin-bottom: 10px;
     color: #fff;
 }
@@ -190,14 +157,14 @@ footer {
     font-size: 2.25em;
     margin-bottom: 5px; /* Reduced margin */
     color: #fff;
-    text-align: left; /* Align text to the left */
+    text-align: left; 
     padding: 5px;
 }
 
 #rubric .gradingjustification {
     font-size: 1.8em;
-    color: #5a93f7; /* Blue color for justification text */
-    margin-bottom: 20px; /* Adjusted margin */
+    color: #5a93f7; 
+    margin-bottom: 20px;
     text-align: left; /* Align text to the left */
     padding: 5px;
     margin-bottom: 80px;
