@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grading rubric</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#maincontent" class="skip-link">Skip to Main Content</a>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Page 1</a></li>
+                <li><a href="page2.html">Page 2</a></li>
+                <li><a href="page3.html">Page 3</a></li>
+                <li><a class="active" href="gradingrubric.html">Grading Rubric</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="maincontent">
+    <div id="rubric">
+        <h3>There is adequate content in the site.</h3>
+        <p class="gradingdescription">There are three pages and every page has at least one image and at least one of those pages has at least five (5) images. </p>
+        <p class="gradingjustification">There are 6 images on every page</p>
+
+        <h3>The site returns no errors from the w3validator</h3>
+        <p class="gradingdescription">Yes</p>
+        <p class="gradingjustification">CONFIRMED</p> <!--TEST BEFORE RELEASE-->
+
+        <h3> "The Skip to Content" link is  present and only visible when the link is in focus.</h3>
+        <p class="gradingdescription">Yes</p>
+        <p class="gradingjustification">When hitting tab(focus) the button will appear in the top left hand corner of every</p>
+
+        <h3>  The navigation is styled an attractive fashion using at least three CSS properties.</h3>
+        <p class="gradingdescription"> The navigation is styled with at least three properties and the appearance is different from examples we have seen in class.</p>
+        <p class="gradingjustification">Background gradient, font-size, border, box-shadow, padding, border-radius, text-decoration. With hover being utilized as well as focus links and active links.</p>
+
+        <h3> The images are styled and the border, padding, and border-radius are all modified.</h3>
+        <p class="gradingdescription"> The images are styled with all three required properties and the appearance is different from examples we have seen in class.</p>
+        <p class="gradingjustification">Yes green border, with padding and border radius, with a rotation effect on hover.</p>
+
+        <h3>  The grid property is applied to at least one parent element and multiple columns are used.  </h3>
+        <p class="gradingdescription"> The grid property is applied to at least one parent element, multiple columns are used, and the additional properties are applied.</p>
+        <p class="gradingjustification">The grid layout is applied to the `.image-grid` container(parent element), with three columns created using `grid-template-columns`, and additional properties like `gap` are used to control the spacing between items.</p>
+
+        <h3>   At least one selector  uses the :hover. </h3>
+        <p class="gradingdescription"> The flex property is applied to at least one parent element and the additional properties are applied. </p>
+        <p class="gradingjustification">Flex applied to nav ul(parent element) of nav a(child element).</p>
+
+        <h3>  The flex property is applied to at least one parent element. </h3>
+        <p class="gradingdescription">  The hover pseudo-class is used and the change on hover is  interesting. </p>
+        <p class="gradingjustification">On hover the nav links swap the gradient colors making it look like the purple is underlining it and when hovering over (even) pictures they do a full 360 degree spin.</p>
+
+        <h3>  At least one selector uses :nth-child. </h3>
+        <p class="gradingdescription">    :nth-child is used and the change on hover is  interesting.   </p>
+        <p class="gradingjustification">The nth child even does a 360 degree spin on hover.</p>
+
+        <h3> The site returns no errors from the WAVE Web Accessibility Evaluation Tool. </h3>
+        <p class="gradingdescription">  There are no  errors. </p>
+        <p class="gradingjustification">CONFIRMED</p> <!--TEST BEFORE DEPLOYMENT-->
+
+
+    </div>
+
+    <h1>Image Gallery Page and Rubric</h1>
+    <div class="image-grid">
+        <img src="CSSwebsiteIImages/IMG_0516.JPEG" alt="Image 1">
+        <img src="CSSwebsiteIImages/IMG_0461.JPEG" alt="Image 2">
+        <img src="CSSwebsiteIImages/IMG_0472.JPEG" alt="Image 3">
+        <img src="CSSwebsiteIImages/IMG_0479.JPEG" alt="Image 4">
+        <img src="CSSwebsiteIImages/IMG_0557.JPEG" alt="Image 5">
+        <img src="CSSwebsiteIImages/IMG_0460.JPEG" alt="Image 6">
+    </div>
+    </main>
+    
+</body>
+</html>
