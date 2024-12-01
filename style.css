@@ -86,3 +86,21 @@ footer {
     padding: 10px 0;
     margin-top: 50px;
 }
+
+
+
+/* Skip Link Styling */
+.skip-link {
+    position: absolute;
+    top: -40px; /* Off-screen initially */
+    left: 10px;
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    text-decoration: none;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 10px; /* Makes it visible when focused */
+}
